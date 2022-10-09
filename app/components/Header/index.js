@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Header = () => {
@@ -6,10 +7,12 @@ const Header = () => {
       <div className="flex h-[53px] items-center justify-between w-full px-4 py-4 mx-auto md:px-8">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <img
+            <Image
               src="https://surielementor.com/montenohtml/assets/images/logo.png"
               alt="logo"
-              className="w-[217px] h-13 inline"
+              width={217}
+              height={48}
+              className="inline"
             />
           </a>
         </div>

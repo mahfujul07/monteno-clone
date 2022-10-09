@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -34,13 +35,28 @@ const Hero = () => {
                 <div className="relative w-full h-full z-[1] flex transform box-content">
                   <div className="pl-20 flex-shrink-0 w-full relative transform">
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1]">
-                      <img src="/item-01.png" alt="hero" />
+                      <Image
+                        src="/item-01.png"
+                        alt="hero"
+                        width={170}
+                        height={170}
+                      />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
-                      <img src="/item-02.png" alt="hero" />
+                      <Image
+                        src="/item-02.png"
+                        alt="hero"
+                        width={170}
+                        height={170}
+                      />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
-                      <img src="/item-03.png" alt="hero" />
+                      <Image
+                        src="/item-03.png"
+                        alt="hero"
+                        width={170}
+                        height={170}
+                      />
                     </div>
                   </div>
                   <span className="absolute left-0 top-0 pointer-events-none opacity-0 z-[-1000]"></span>
@@ -49,13 +65,28 @@ const Hero = () => {
                 <div className="flex relative w-full h-full z-[1]  transform box-content ml-6">
                   <div className="pr-2 flex-shrink-0 w-full relative transform">
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1]">
-                      <img src="/item-04.png" alt="hero" />
+                      <Image
+                        src="/item-04.png"
+                        alt="hero"
+                        width={170}
+                        height={170}
+                      />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
-                      <img src="/item-05.png" alt="hero" />
+                      <Image
+                        src="/item-05.png"
+                        alt="hero"
+                        width={170}
+                        height={170}
+                      />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
-                      <img src="/item-06.png" alt="hero" />
+                      <Image
+                        src="/item-06.png"
+                        alt="hero"
+                        width={170}
+                        height={170}
+                      />
                     </div>
                   </div>
                   <span className="absolute left-0 top-0 pointer-events-none opacity-0 z-[-1000]"></span>
@@ -64,18 +95,32 @@ const Hero = () => {
                 <div className="relative w-full h-full z-[1] flex transform box-content">
                   <div className="pl-0 flex-shrink-0 w-full relative transform">
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1]">
-                      <img src="/item-07.png" alt="hero" />
+                      <Image
+                        src="/item-07.png"
+                        alt="hero"
+                        width={170}
+                        height={170}
+                      />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
-                      <img src="/item-06.png" alt="hero" />
+                      <Image
+                        src="/item-06.png"
+                        alt="hero"
+                        width={170}
+                        height={170}
+                      />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
-                      <img src="/item-01.png" alt="hero" />
+                      <Image
+                        src="/item-01.png"
+                        alt="hero"
+                        width={170}
+                        height={170}
+                      />
                     </div>
                   </div>
                   <span className="absolute left-0 top-0 pointer-events-none opacity-0 z-[-1000]"></span>
                 </div>
-
               </div>
             </div>
           </div>

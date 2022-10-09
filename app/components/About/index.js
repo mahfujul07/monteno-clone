@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -11,15 +12,30 @@ const About = () => {
             <div className="flex items-center h-[670px] w-[670px]">
               <div className="mr-8">
                 <div className="w-[270px] h-[320px] rounded-[20px] flex justify-center items-end bg-[#7153d9]">
-                  <img src="/assets/items/item-08.png" alt="Monteno" />
+                  <Image 
+                  src="/assets/items/item-08.png" 
+                  alt="Monteno" 
+                  width={270}
+                  height={320}
+                  />
                 </div>
               </div>
               <div className="">
                 <div className="w-[270px] mb-[30px] h-[320px] rounded-[20px] flex justify-center items-end bg-[#4526b1]">
-                  <img src="/assets/items/item-09.png" alt="Monteno" />
+                  <Image 
+                  src="/assets/items/item-09.png" 
+                  alt="Monteno" 
+                  width={270}
+                  height={320}
+                  />
                 </div>
                 <div className="w-[270px] h-[320px] rounded-[20px] flex justify-center items-end bg-[#4c22e1]">
-                  <img src="/assets/items/item-10.png" alt="Monteno" />
+                  <Image 
+                  src="/assets/items/item-10.png" 
+                  alt="Monteno" 
+                  width={270}
+                  height={320}
+                  />
                 </div>
               </div>
             </div>
@@ -59,6 +75,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;
