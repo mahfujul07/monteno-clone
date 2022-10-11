@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="pt-[170px]">
+    <section className="pt-[170px] w-[1519px] h-[1010px]">
       <div className="flex max-w-[1200px] w-full m-auto">
         <div className="gap-x-6 gap-y-0 flex-wrap mt-0 mr-6 ml-6">
           <div className="flex-auto flex w-[58%]">
@@ -15,8 +15,8 @@ const About = () => {
                   <Image 
                   src="/assets/items/item-08.png" 
                   alt="Monteno" 
-                  width={270}
-                  height={320}
+                  width={171}
+                  height={251}
                   />
                 </div>
               </div>
@@ -25,16 +25,16 @@ const About = () => {
                   <Image 
                   src="/assets/items/item-09.png" 
                   alt="Monteno" 
-                  width={270}
-                  height={320}
+                  width={247}
+                  height={237}
                   />
                 </div>
                 <div className="w-[270px] h-[320px] rounded-[20px] flex justify-center items-end bg-[#4c22e1]">
                   <Image 
                   src="/assets/items/item-10.png" 
                   alt="Monteno" 
-                  width={270}
-                  height={320}
+                  width={165}
+                  height={267}
                   />
                 </div>
               </div>

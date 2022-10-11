@@ -46,16 +46,16 @@ const Hero = () => {
                       <Image
                         src="/item-02.png"
                         alt="hero"
-                        width={170}
-                        height={170}
+                        width={137}
+                        height={142}
                       />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
                       <Image
                         src="/item-03.png"
                         alt="hero"
-                        width={170}
-                        height={170}
+                        width={149}
+                        height={141}
                       />
                     </div>
                   </div>
@@ -68,24 +68,24 @@ const Hero = () => {
                       <Image
                         src="/item-04.png"
                         alt="hero"
-                        width={170}
-                        height={170}
+                        width={123}
+                        height={137}
                       />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
                       <Image
                         src="/item-05.png"
                         alt="hero"
-                        width={170}
-                        height={170}
+                        width={159}
+                        height={126}
                       />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
                       <Image
                         src="/item-06.png"
                         alt="hero"
-                        width={170}
-                        height={170}
+                        width={150}
+                        height={148}
                       />
                     </div>
                   </div>
@@ -98,16 +98,16 @@ const Hero = () => {
                       <Image
                         src="/item-07.png"
                         alt="hero"
-                        width={170}
-                        height={170}
+                        width={145}
+                        height={127}
                       />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
                       <Image
                         src="/item-06.png"
                         alt="hero"
-                        width={170}
-                        height={170}
+                        width={150}
+                        height={148}
                       />
                     </div>
                     <div className="w-[170px] h-[170px] rounded-[20px] flex justify-center items-end bg-[#4526b1] mt-7">
